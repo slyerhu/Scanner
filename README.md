@@ -214,5 +214,13 @@ plt.show()
 
 #print(max(b.keys()),max(b.values()))
 ```
-
-![Original](4.jpg)
+# Original image
+(4.jpg)
+(1d_resized.jpg)
+cv.imwrite("2d_bw.jpg",gray)
+cv.imwrite("3d_blur.jpg",blurred)
+cv.imwrite("4d_cannyedged.jpg",edge)
+cv.imwrite("5d_squared.jpg",squared)
+cv.imwrite("6d_pointed.jpg",pointed)
+cv.imwrite("7d_warped.jpg",warped)
+cv.imwrite("8d_final.jpg",thr)
